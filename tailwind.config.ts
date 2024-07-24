@@ -13,8 +13,12 @@ module.exports = {
           background: "hsl(var(--btn-background))",
           "background-hover": "hsl(var(--btn-background-hover))",
         },
+        customOrange: '#FFA451',
+        customOrangeHover: '#FF8B3B',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 };

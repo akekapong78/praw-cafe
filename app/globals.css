@@ -4,25 +4,10 @@
 
 @layer base {
   :root {
-    --background: 50 100% 95%; /* Light background */
-    --btn-background: 50 100% 90%; /* Light button background */
-    --btn-background-hover: 50 100% 85%; /* Light button background on hover */
+    --background: 50 100% 100%; /* Light background */
     --foreground: 200 20% 10%; /* Dark text */
   }
 
-  /* For set Dark mode {  */
-  /* @media (prefers-color-scheme: light) { 
-    :root {
-      --background: 200 50% 3%; 
-      --btn-background: 200 10% 9%; 
-      --btn-background-hover: 200 10% 12%; 
-      --foreground: 200 20% 96%;
-    }
-  } */
-
-}
-
-@layer base {
   * {
     @apply border-foreground/20;
   }
